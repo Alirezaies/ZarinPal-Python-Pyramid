@@ -1,0 +1,5 @@
+you need `suds` for using webgate
+install suds by:
+    `pip install suds`
+
+install `suds-jurko for python3 which is more updated`
