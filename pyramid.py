@@ -11,6 +11,7 @@ from wsgiref.simple_server import make_server
 from pyramid.config import Configurator
 from pyramid.view import view_config
 from pyramid.request import Request
+from pyramid.httpexceptions import HTTPFound
 from suds.client import Client
 
 MMERCHANT_ID = 'XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX'  # Required
